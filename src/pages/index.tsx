@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Design from "src/components/design";
+import Education from "src/components/education";
 import Hero from "src/components/hero";
 import Portfolio from "src/components/portfolio";
 import PreviewFold from "src/components/preview-fold";
@@ -19,7 +20,8 @@ const Home: NextPage = () => {
       <PreviewFold />
       <Portfolio />
       <Work />
-      <Design />
+      {/* <Design /> */}
+      <Education />
     </>
   );
 };

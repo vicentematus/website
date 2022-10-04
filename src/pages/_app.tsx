@@ -11,7 +11,7 @@ function Layout({ children }: { children: ReactElement }) {
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <Layout>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </Layout>
   );
 };

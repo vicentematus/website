@@ -6,15 +6,18 @@ const { work_experience } = portfolio;
 const WorkPage: React.FC = () => {
   return (
     <div className="bg-black">
-      <section className="mx-auto mt-10 max-w-3xl lg:mt-28">
+      <section className="mx-auto mt-10 max-w-7xl lg:mt-28">
         <div className="rounded-2xl   p-6 dark:border-zinc-700/40">
-          <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-            <BriefcaseIcon className="h-6 w-6 flex-none" />
-            <span className="ml-3 text-2xl text-gray-200">
-              Experiencia Laboral
-            </span>
-          </h2>
-          <div className="mx-auto max-w-3xl  divide-y divide-solid divide-gray-700 px-4 py-2">
+          <header>
+            <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+              <BriefcaseIcon className="h-6 w-6 flex-none" />
+              <span className="ml-3 text-2xl text-gray-200">
+                Experiencia Laboral
+              </span>
+            </h2>
+          </header>
+
+          <div className="  flex flex-col divide-y divide-solid divide-gray-700 px-4 py-2 lg:flex-row lg:divide-y-0 lg:divide-x lg:divide-solid">
             {work_experience.map((work) => (
               <WorkCard key={work.id} work={work} />
             ))}

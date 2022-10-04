@@ -2,6 +2,12 @@ import type { Project } from "src/types/project";
 import type { ImageLoaderProps } from "next/image";
 
 import Image from "next/image";
+import {
+  ArrowLeftIcon,
+  ArrowRightCircleIcon,
+  ArrowRightIcon,
+  ArrowSmallRightIcon,
+} from "@heroicons/react/24/outline";
 const CardAlt: React.FC<{ project: Project }> = ({ project }) => {
   const { id, published, title, description, images, links } = project;
   let image;
@@ -29,38 +35,14 @@ const CardAlt: React.FC<{ project: Project }> = ({ project }) => {
           href={links.deploy}
         >
           Ver deploy
-          <svg
-            className="ml-3 overflow-visible text-slate-300 group-hover:text-slate-200 dark:text-slate-500 dark:group-hover:text-slate-400"
-            width="3"
-            height="6"
-            viewBox="0 0 3 6"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M0 0L3 3L0 6" />
-          </svg>
+          <ArrowRightCircleIcon className="h-6 w-6" />
         </a>
         <a
           className="group inline-flex h-9 items-center whitespace-nowrap rounded-full bg-slate-700 px-3 text-sm font-semibold text-white hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 dark:bg-slate-700 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white dark:focus:ring-slate-500 dark:focus:ring-offset-0"
           href={links.github}
         >
           Ver Github
-          <svg
-            className="ml-3 overflow-visible text-slate-300 group-hover:text-slate-200 dark:text-slate-500 dark:group-hover:text-slate-400"
-            width="3"
-            height="6"
-            viewBox="0 0 3 6"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M0 0L3 3L0 6" />
-          </svg>
+          <ArrowRightCircleIcon className="h-6 w-6" />
         </a>
       </div>
       <div className="mb-10 w-full flex-none xl:mb-0 xl:ml-8 xl:w-[30rem]">
