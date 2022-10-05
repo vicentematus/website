@@ -5,7 +5,7 @@ import WorkCard from "./WorkCard";
 const { work_experience } = portfolio;
 const WorkPage: React.FC = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-gray-900">
       <section className="mx-auto mt-10 max-w-7xl lg:mt-28">
         <div className="rounded-2xl   p-6 dark:border-zinc-700/40">
           <header>
@@ -17,14 +17,14 @@ const WorkPage: React.FC = () => {
             </h2>
           </header>
 
-          <div className="  flex flex-col divide-y divide-solid divide-gray-700 px-4 py-2 lg:flex-row lg:divide-y-0 lg:divide-x lg:divide-solid">
+          <div className="  flex flex-col divide-y divide-solid divide-gray-700 px-4 py-2 lg:flex-row lg:divide-y-0 ">
             {work_experience.map((work) => (
               <WorkCard key={work.id} work={work} />
             ))}
           </div>
           <div className="  px-4 py-2">
             <a
-              className="group mt-6 inline-flex w-full items-center justify-center gap-2 rounded-md bg-slate-900 py-2 px-3 text-sm font-medium text-gray-100 outline-offset-2 transition hover:bg-gray-800 active:bg-gray-800 active:text-gray-100/60 active:transition-none "
+              className="group mt-6 inline-flex w-full items-center justify-center gap-2 rounded-md bg-blue-900 py-2 px-3 text-sm font-medium text-gray-100 outline-offset-2 transition hover:bg-gray-800 active:bg-gray-800 active:text-gray-100/60 active:transition-none "
               href="#"
             >
               Descargar CV (como archivo PDF)
@@ -35,7 +35,7 @@ const WorkPage: React.FC = () => {
               />
             </a>
             <a
-              className="group mt-6 inline-flex w-full items-center justify-center gap-2 rounded-md bg-slate-900 py-2 px-3 text-sm font-medium text-gray-100 outline-offset-2 transition hover:bg-gray-800 active:bg-gray-800 active:text-gray-100/60 active:transition-none  "
+              className="group mt-6 inline-flex w-full items-center justify-center gap-2 rounded-md bg-blue-900 py-2 px-3 text-sm font-medium text-gray-100 outline-offset-2 transition hover:bg-gray-800 active:bg-gray-800 active:text-gray-100/60 active:transition-none  "
               href="#"
             >
               Descargar CV (como archivo Word)

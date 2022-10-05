@@ -2,7 +2,7 @@ import { portfolio } from "src/utils/portfolio";
 
 const Hero: React.FC = () => {
   return (
-    <div className=" sm:px-8">
+    <div className=" pt-10 sm:px-8 lg:pt-16">
       <div className="mx-auto max-w-7xl lg:px-8">
         <div className="relative px-4 sm:px-8 lg:px-12">
           <div className="mx-auto max-w-2xl lg:max-w-5xl">

@@ -2,7 +2,7 @@ const IMG_PATH = "/img/";
 
 export const portfolio = {
   hero: {
-    title: "Software designer, founder, and amateur astronaut.",
+    title: "Frontend developer, UI designer, y un poco de backend Software.",
     description:
       "Estudiante de Ingeniería en Ejecución Informática. Actualmente cursando el último semestre de la carrera. Con experiencia en desarrollo de aplicaciones web, usando tecnologías cómo React, Next.js, Vanilla Javascript, EJS +2 años de experiencia. Conocimiento de base de datos relacionales cómo SQL con Postgre SQL y SQLITE. También base de datos no relacionales cómo MongoDB.",
   },
@@ -141,16 +141,6 @@ export const portfolio = {
   ],
   education: [
     {
-      id: 0,
-      degree: "Educación Media",
-      institution: "Kingston College",
-      location: "Concepción, Chile",
-      start_date: "2017",
-      end_date: "2017",
-      description: "Educación media y básica.",
-      image: "",
-    },
-    {
       id: 1,
       degree: "Ingeniería en Ejecución en Computación e Informática ",
 
@@ -159,8 +149,18 @@ export const portfolio = {
       start_date: "2019",
       end_date: "Presente",
       description:
-        "Educación Universitaria. Cursando ultimo semestre de la carrera",
+        "Educación Universitaria. Alumno Tesista cursando ultimo semestre de la carrera.",
       image: "/img/logos/universidad-del-biobio.png",
+    },
+    {
+      id: 0,
+      degree: "Educación Media",
+      institution: "Kingston College",
+      location: "Concepción, Chile",
+      start_date: "2009",
+      end_date: "2019",
+      description: "Educación media y básica.",
+      image: "/img/logos/kingston-college.png",
     },
   ],
   projects: [

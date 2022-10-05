@@ -1,3 +1,4 @@
+import { AcademicCapIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import { portfolio } from "src/utils/portfolio";
 const { education } = portfolio;
@@ -13,29 +14,39 @@ const people = [
 ];
 const Education: React.FC = () => {
   return (
-    <section className="bg-black">
+    <section className="bg-gray-900">
       <div className="mx-auto max-w-5xl">
+        <header className="flex items-center">
+          <span>
+            <AcademicCapIcon className="h-6 w-6" />
+          </span>
+          <h2 className="ml-2 text-3xl font-semibold">Educación</h2>
+        </header>
+
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          {people.map((person) => (
+          {education.map((item) => (
             <div
-              key={person.email}
-              className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-gray-800 px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400"
+              key={item.id}
+              className="relative flex items-center space-x-3 rounded-lg   bg-gray-900 px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 "
             >
               <div className="flex-shrink-0">
-                <Image
-                  className="h-10 w-10 rounded-full"
-                  src={`/img/work/crimson.png`}
-                  height={100}
-                  width={100}
-                  alt=""
-                />
+                <div className="relative h-24 w-24 rounded-full">
+                  <Image
+                    src={`${item?.image}`}
+                    layout="fill"
+                    objectFit="contain"
+                    alt=""
+                  />
+                </div>
               </div>
               <div className="min-w-0 flex-1">
-                <span className="absolute inset-0" aria-hidden="true" />
-                <p className="text-sm font-medium text-gray-200">
-                  {person.name}
+                <h3 className="text-sm font-medium text-gray-200">
+                  {item.institution}
+                </h3>
+                <p>
+                  {item.start_date} - {item.end_date}
                 </p>
-                <p className="truncate text-sm text-gray-400">{person.role}</p>
+                <p className=" text-sm text-gray-400">{item.description}</p>
               </div>
             </div>
           ))}

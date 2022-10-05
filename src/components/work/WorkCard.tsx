@@ -48,15 +48,15 @@ const WorkCard: React.FC<{ work: Work }> = ({ work }) => {
             {description}
           </p>
           <ul className=" text-white">
-            {items.map((item: Item) => (
-              <ListItem key={item.id} item={item} />
+            {items.map((item: Item, index) => (
+              <ListItem key={index} item={item} />
             ))}
           </ul>
           <div className="mt-4 sm:mt-8 md:mt-10">
             <h3 className="text-lg font-semibold text-gray-200">
               Tecnologias usadas
             </h3>
-            <div className="grid grid-cols-6">
+            <div className="mt-2 grid grid-cols-6">
               {technologies.map((tech: Technology) => (
                 <TechnologyItem key={tech.id} tech={tech} />
               ))}

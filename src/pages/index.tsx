@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import CTASection from "src/components/cta";
 import Design from "src/components/design";
 import Education from "src/components/education";
 import Hero from "src/components/hero";
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
       <Work />
       {/* <Design /> */}
       <Education />
+      <CTASection />
     </>
   );
 };
