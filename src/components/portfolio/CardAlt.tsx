@@ -46,8 +46,13 @@ const CardAlt: React.FC<{ project: Project }> = ({ project }) => {
         </a>
       </div>
       <div className="mb-10 w-full flex-none xl:mb-0 xl:ml-8 xl:w-[30rem]">
-        <div className="  overflow-hidden rounded-lg bg-slate-100 object-fill shadow-lg dark:bg-slate-800">
-          <Image src={`${images[0]}`} width={400} height={300} alt="Test" />
+        <div className="relative mx-auto aspect-square h-[400px] w-auto rounded-lg bg-slate-100 object-fill shadow-lg dark:bg-slate-800">
+          <Image
+            src={`${images[0]}`}
+            fill
+            className="object-cover hover:opacity-75"
+            alt="Test"
+          />
         </div>
       </div>
     </li>

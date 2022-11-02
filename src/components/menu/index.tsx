@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { navigation } from "src/utils/menu";
 
-const HeaderSection: React.FC = () => {
+const HeaderSection = () => {
   return (
     <Disclosure as="nav" className="bg-gray-900">
       {({ open }) => (
@@ -24,13 +24,15 @@ const HeaderSection: React.FC = () => {
                     Vicente Matus
                   </p>
                 </div>
-                <div className="hidden font-display sm:ml-6 sm:block">
+                <div className="hidden font-display sm:ml-6 md:block">
                   <div className="flex space-x-4">
                     {navigation.map((element, index) => (
-                      <Link key={index} href={element.href}>
-                        <a className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700">
-                          {element.name}
-                        </a>
+                      <Link
+                        key={index}
+                        href={element.href}
+                        className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700"
+                      >
+                        {element.name}
                       </Link>
                     ))}
                   </div>
@@ -38,7 +40,7 @@ const HeaderSection: React.FC = () => {
               </div>
               <div className="-mr-2 flex sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -59,11 +61,11 @@ const HeaderSection: React.FC = () => {
                   <Link
                     href={element.href}
                     key={index}
-                    className="block font-display"
+                    className="block
+                    rounded-md  bg-slate-600 px-3 py-2 font-display text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white
+                    "
                   >
-                    <a className="block  rounded-md bg-slate-600 px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
-                      {element.name}
-                    </a>
+                    {element.name}
                   </Link>
                 </>
               ))}

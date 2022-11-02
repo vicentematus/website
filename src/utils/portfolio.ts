@@ -169,7 +169,7 @@ export const portfolio = {
       published: true,
       title: "Volume Landmarks from Rennaisance Periodization",
       description:
-        "Aplicación web que ayuda a visualizar los volume landmarks de las guías de Reinassance Periodization. Con web scraping se logró capturar la información",
+        "Aplicación web que ayuda a visualizar los volume landmarks de las guías de Reinassance Periodization. Con web scraping se logró capturar la información.",
       technologies: [],
       images: ["/img/volume-landmarks-reinassance-periodization-preview.png"],
       links: {
@@ -177,25 +177,26 @@ export const portfolio = {
         github: "https://github.com/vicentematus/volume-landmarks-rp/",
       },
     },
-    {
-      id: 1,
-      title: "Rankings de la UFC",
-      published: false,
-      description:
-        "Proyecto para poder visualizar los rankings de los distintos pesos de la UFC.",
-      technologies: [],
-      images: [],
-      links: {
-        deploy: "",
-        github: "https://github.com/vicentematus/ufc-sportsradar",
-      },
-    },
+
     {
       id: 2,
       published: true,
       title: "Pokedex con Svelte",
       description:
         "Trabajo con la PokeAPI para poder visualizar los 150 primeros pokemones. ",
+      technologies: [],
+      images: ["/img/svelte-pokedex.png"],
+      links: {
+        deploy: "https://svelte-pokedex-rust.vercel.app/",
+        github: "https://github.com/vicentematus/svelte-pokedex",
+      },
+    },
+    {
+      id: 3,
+      published: true,
+      title: "Buscador de Aves Chilenas ",
+      description:
+        "Buscador de Aves Chilenas. Realizado con Next.js, Typescript y Tailwind CSS. ",
       technologies: [],
       images: ["/img/svelte-pokedex.png"],
       links: {
@@ -249,6 +250,19 @@ export const portfolio = {
       description: "",
 
       images: [],
+      links: {
+        deploy:
+          "https://dribbble.com/shots/15060683-Solar-Power-Landing-Page-Renewable-Energy",
+        figma: "",
+      },
+    },
+
+    {
+      id: 4,
+      title: "Pvblo28 design concept for 9799 song",
+      description: "",
+
+      images: ["/img/design/pvblo28.png"],
       links: {
         deploy:
           "https://dribbble.com/shots/15060683-Solar-Power-Landing-Page-Renewable-Energy",

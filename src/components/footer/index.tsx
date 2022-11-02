@@ -39,10 +39,11 @@ const Footer: React.FC = () => {
         >
           {navigation.map((item, index) => (
             <div key={index} className="px-5 py-2">
-              <Link href={item.href}>
-                <a className="text-base text-gray-500 hover:text-gray-200">
-                  {item.name}
-                </a>
+              <Link
+                href={item.href}
+                className="text-base text-gray-500 hover:text-gray-200"
+              >
+                {item.name}
               </Link>
             </div>
           ))}

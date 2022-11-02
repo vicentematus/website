@@ -8,7 +8,8 @@ import "@fontsource/silkscreen/400.css";
 function Layout({ children }: { children: ReactElement }) {
   return (
     <>
-      <Menu />
+      {/*   HAy problemas ya que estoy causa overflow*/}
+      {/* <Menu /> */}
       <div className="bg-gray-900 text-white">{children}</div>
       <Footer />
     </>

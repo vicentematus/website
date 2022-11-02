@@ -33,8 +33,8 @@ const Education: React.FC = () => {
                 <div className="relative h-24 w-24 rounded-full">
                   <Image
                     src={`${item?.image}`}
-                    layout="fill"
-                    objectFit="contain"
+                    height={300}
+                    width={300}
                     alt=""
                   />
                 </div>

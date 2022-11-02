@@ -6,12 +6,7 @@ const EducationCard: React.FC = ({ item }) => {
     <div className="relative flex items-center space-x-3 rounded-lg   bg-gray-900 px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 ">
       <div className="flex-shrink-0">
         <div className="relative h-24 w-24 rounded-full">
-          <Image
-            src={`${item?.image}`}
-            layout="fill"
-            objectFit="contain"
-            alt=""
-          />
+          <Image src={`${item?.image}`} width={200} height={200} alt="" />
         </div>
       </div>
       <div className="min-w-0 flex-1">

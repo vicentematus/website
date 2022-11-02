@@ -23,4 +23,10 @@ export default defineNextConfig({
     locales: ["en"],
     defaultLocale: "en",
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 });

@@ -2,9 +2,11 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import CTASection from "src/components/cta";
 import Design from "src/components/design";
+import DesignAlt from "src/components/design/design-alt";
 import Education from "src/components/education";
 import Hero from "src/components/hero";
 import Portfolio from "src/components/portfolio";
+import PortfolioAlt from "src/components/portfolio-alt";
 import PreviewFold from "src/components/preview-fold";
 import Work from "src/components/work";
 
@@ -19,10 +21,11 @@ const Home: NextPage = () => {
 
       <Hero />
       <PreviewFold />
-      <Portfolio />
+      {/* <Portfolio /> */}
+      <PortfolioAlt />
       <Work />
-      {/* <Design /> */}
-      <Education />
+      <Design />
+      <DesignAlt />
       <CTASection />
     </>
   );

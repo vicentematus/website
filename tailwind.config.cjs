@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         display: ["silkscreen", ...defaultTheme.fontFamily.sans],
       },
+      gridTemplateRows: {
+        "[auto,auto,1fr]": "auto auto 1fr",
+      },
     },
   },
   plugins: [],
