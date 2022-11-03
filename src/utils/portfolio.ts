@@ -2,9 +2,9 @@ const IMG_PATH = "/img/";
 
 export const portfolio = {
   hero: {
-    title: "Frontend developer, UI designer, y un poco de backend Software.",
+    title: "Intento de Full-Stack, UI/UX designer. React/Next.JS Developer ",
     description:
-      "Estudiante de Ingeniería en Ejecución Informática. Actualmente cursando el último semestre de la carrera. Con experiencia en desarrollo de aplicaciones web, usando tecnologías cómo React, Next.js, Vanilla Javascript, EJS +2 años de experiencia. Conocimiento de base de datos relacionales cómo SQL con Postgre SQL y SQLITE. También base de datos no relacionales cómo MongoDB.",
+      "Estudiante de Ingeniería en Ejecución Informática.  Con experiencia en desarrollo de aplicaciones web, usando tecnologías cómo React, Next.js, Typescript. Conocimiento de base de datos SQL y NoSQL.",
   },
   curriculum: {
     word: "",

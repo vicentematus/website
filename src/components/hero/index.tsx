@@ -1,5 +1,6 @@
 import { portfolio } from "src/utils/portfolio";
 
+const { hero } = portfolio;
 const Hero: React.FC = () => {
   return (
     <div className=" pt-10 sm:px-8 lg:pt-16">
@@ -8,13 +9,10 @@ const Hero: React.FC = () => {
           <div className="mx-auto max-w-2xl lg:max-w-5xl">
             <div className="max-w-2xl">
               <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-                Frontend developer, UI designer, y un poco de backend Software.
+                {hero.title}
               </h1>
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                Soy Vicente Matus, front-end engineer, diseñador UI y un poco de
-                backend. Cuento con +3 años de experiencia trabajando en areas
-                de desarrollo web. desde CMS hasta Next.js / Typescript, Basado
-                en Chile, Concepción.
+                {hero.description}
               </p>
               <div className="mt-6 flex gap-6">
                 <a

@@ -6,9 +6,9 @@ const PreviewFold: React.FC = () => {
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
         <div className="relative aspect-[9/10] w-44 flex-none rotate-2 overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl">
           <Image
-            src="/img/svelte-pokedex.png"
+            src="/img/design/lux-portfolio.png"
             alt=""
-            width="400"
+            width="500"
             height="500"
             priority
             className="absolute inset-0 h-full w-full object-cover"
@@ -26,7 +26,7 @@ const PreviewFold: React.FC = () => {
         </div>
         <div className="relative aspect-[9/10] w-44 flex-none rotate-2 overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl">
           <Image
-            src="/img/svelte-pokedex.png"
+            src="/img/design/greenscape-energia-solar.png"
             alt=""
             width="400"
             height="500"
@@ -36,7 +36,7 @@ const PreviewFold: React.FC = () => {
         </div>
         <div className="relative aspect-[9/10] w-44 flex-none rotate-2 overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl">
           <Image
-            src="/img/svelte-pokedex.png"
+            src="/img/fold/pvblo28.png"
             alt=""
             width="400"
             height="500"
@@ -46,7 +46,7 @@ const PreviewFold: React.FC = () => {
         </div>
         <div className="relative aspect-[9/10] w-44 flex-none -rotate-2 overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl">
           <Image
-            src="/img/svelte-pokedex.png"
+            src="/img/fold/salvaje.png"
             alt=""
             width="400"
             height="500"
