@@ -62,7 +62,9 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="text-center">
-          <a className="mt-8 text-center text-base text-gray-400">ASD</a>
+          <a className="mt-8 text-center text-base text-gray-400" href="">
+            PARA MAS INFORMACIÓN VISITA MI GITHUB
+          </a>
         </div>
       </div>
     </footer>

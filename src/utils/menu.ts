@@ -12,14 +12,7 @@ export const navigation = [
     name: "Design",
     href: "/#design",
   },
-  {
-    name: "Work",
-    href: "/#design",
-  },
-  {
-    name: "Education",
-    href: "/#design",
-  },
+
   {
     name: "Contact",
     href: "/#contact",

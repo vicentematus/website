@@ -11,7 +11,7 @@ const PortfolioAlt = () => {
     <div className="bg-black py-16">
       <section className="mx-auto  max-w-5xl">
         <div className="grid grid-cols-12 items-center justify-between">
-          <header className="col-span-12 md:col-span-4">
+          <header className="col-span-12 md:col-span-4" id="portfolio">
             <h2 className="font-display text-3xl uppercase">Portfolio</h2>
             <p className=" text-base  md:text-lg">
               Revisa algunos proyectos que he realizado utilizando tecnologías
@@ -41,7 +41,6 @@ const PortfolioAlt = () => {
               <CardAlt key={project.id} project={project} />
             ))}
           </ul>
-
         </div>
       </section>
     </div>

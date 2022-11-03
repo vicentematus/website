@@ -250,7 +250,7 @@ export const portfolio = {
       title: "Contact Page for an Agency",
       description: "",
 
-      images: [],
+      images: ["/img/design/agencia-contacto.webp"],
       links: {
         deploy:
           "https://dribbble.com/shots/15060683-Solar-Power-Landing-Page-Renewable-Energy",

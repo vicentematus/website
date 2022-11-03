@@ -15,7 +15,10 @@ const CTASection: React.FC = () => {
           <div className="overflow-hidden rounded-lg bg-gray-800 shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
             <div className="px-6 pt-10 pb-12 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
               <div className="lg:self-center">
-                <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+                <h2
+                  className="text-3xl font-extrabold text-white sm:text-4xl"
+                  id="contact"
+                >
                   <span className="block">Hablemos un rato 👋</span>
                 </h2>
                 <p className="mt-4 text-lg leading-6 text-indigo-200">
