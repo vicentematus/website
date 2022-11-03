@@ -23,9 +23,8 @@ const Home: NextPage = () => {
       <PreviewFold />
       {/* <Portfolio /> */}
       <PortfolioAlt />
-      <Work />
+      {/* <Work /> */}
       <Design />
-      <DesignAlt />
       <CTASection />
     </>
   );

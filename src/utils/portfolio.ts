@@ -169,7 +169,7 @@ export const portfolio = {
       published: true,
       title: "Volume Landmarks from Rennaisance Periodization",
       description:
-        "Aplicación web que ayuda a visualizar los volume landmarks de las guías de Reinassance Periodization. Con web scraping se logró capturar la información.",
+        "Visualizador  de los volume landmarks de las guías de Reinassance Periodization. Incluye cada grupo muscular.",
       technologies: [],
       images: ["/img/volume-landmarks-reinassance-periodization-preview.png"],
       links: {
@@ -198,10 +198,11 @@ export const portfolio = {
       description:
         "Buscador de Aves Chilenas. Realizado con Next.js, Typescript y Tailwind CSS. ",
       technologies: [],
-      images: ["/img/svelte-pokedex.png"],
+      images: ["/img/chilean-birds.png"],
       links: {
-        deploy: "https://svelte-pokedex-rust.vercel.app/",
-        github: "https://github.com/vicentematus/svelte-pokedex",
+        deploy: "https://chilean-birds-nine.vercel.app/",
+        github:
+          "https://github.com/vicentematus/chilean-birds-nextjs-typescript",
       },
     },
   ],

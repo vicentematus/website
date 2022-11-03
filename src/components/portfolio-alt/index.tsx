@@ -42,7 +42,6 @@ const PortfolioAlt = () => {
             ))}
           </ul>
 
-          <PortfolioGallery />
         </div>
       </section>
     </div>
