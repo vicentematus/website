@@ -1,5 +1,5 @@
 import { env } from "./src/env/server.mjs";
-
+import i18config from "./next-i18next.config.mjs";
 /**
  * Don't be scared of the generics here.
  * All they do is to give us autocompletion when using this.
@@ -19,10 +19,7 @@ export default defineNextConfig({
     domains: ["tailwindui.com"],
   },
   // Next.js i18n docs: https://nextjs.org/docs/advanced-features/i18n-routing
-  i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
-  },
+  i18n: i18config.i18n,
   typescript: {
     ignoreBuildErrors: true,
   },

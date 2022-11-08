@@ -1,3 +1,4 @@
+import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import { Project } from "src/types/project";
 import { portfolio } from "src/utils/portfolio";
@@ -7,15 +8,17 @@ import CardAlt from "./Card";
 const { projects } = portfolio;
 
 const PortfolioAlt = () => {
+  const { t } = useTranslation();
   return (
     <div className="bg-black py-16">
       <section className="mx-auto  max-w-5xl">
         <div className="grid grid-cols-12 items-center justify-between">
           <header className="col-span-12 md:col-span-4" id="portfolio">
-            <h2 className="font-display text-3xl uppercase">Portfolio</h2>
+            <h2 className="font-display text-3xl uppercase">
+              {t("portfolio.title")}
+            </h2>
             <p className=" text-base  md:text-lg">
-              Revisa algunos proyectos que he realizado utilizando tecnologías
-              cómo Next.js, Typescript.
+              {t("portfolio.description")}
             </p>
           </header>
 

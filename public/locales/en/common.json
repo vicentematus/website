@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "title": "Trying to be a fullstack developer. UI/UX designer.",
+    "description": "Bachelor student in Informatics Engineering, with 2 years of experience developing web applications, using technologies such as React, Next, Svelte and Typescript. With notions of UI/UX design. Database knowledge on SQL/NoSQL databases"
+  },
+  "design": {
+    "title": "Take a look at my designs"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "description": "Check some projects that I developed using Next.js, React, Typescript and Svelte."
+  },
+  "contact": {
+    "title": "Let's talk a bit 🤖",
+    "description": "You can find me at the following links:",
+    "mail": "hi@vicentematus.cl",
+    "cta": "Send message (mailto)",
+    "linkedin": "https://www.linkedin.com/in/vicentematus/?locale=en_US"
+  }
+}

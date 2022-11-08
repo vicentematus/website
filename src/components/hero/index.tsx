@@ -1,8 +1,12 @@
 import { Dribbble } from "@icons-pack/react-simple-icons";
 import { portfolio } from "src/utils/portfolio";
-
+import { useRouter } from "next/router";
+import { handleLocaleChange } from "src/utils/locale";
+import { useTranslation } from "next-i18next";
 const { hero } = portfolio;
-const Hero: React.FC = () => {
+const Hero = () => {
+  const { t } = useTranslation("common");
+
   return (
     <div className=" pt-10 sm:px-8 lg:pt-16">
       <div className="mx-auto max-w-7xl lg:px-8">
@@ -10,10 +14,10 @@ const Hero: React.FC = () => {
           <div className="mx-auto max-w-2xl lg:max-w-5xl">
             <div className="max-w-2xl">
               <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-                {hero.title}
+                {t("hero.title")}
               </h1>
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                {hero.description}
+                {t("hero.description")}
               </p>
               <div className="mt-6 flex gap-6">
                 <a

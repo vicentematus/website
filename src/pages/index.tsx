@@ -1,4 +1,4 @@
-import type { NextPage } from "next";
+import type { GetServerSideProps, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import CTASection from "src/components/cta";
 import Design from "src/components/design";
@@ -9,7 +9,10 @@ import Portfolio from "src/components/portfolio";
 import PortfolioAlt from "src/components/portfolio-alt";
 import PreviewFold from "src/components/preview-fold";
 import Work from "src/components/work";
+import { useRouter } from "next/router";
 
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import i18config from "next-i18next.config.mjs";
 const Home: NextPage = () => {
   return (
     <>
@@ -30,4 +33,12 @@ const Home: NextPage = () => {
   );
 };
 
+export const getServerSideProps = async ({ locale }: { locale: string }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ["common"], i18config, [
+      "en",
+      "sv",
+    ])),
+  },
+});
 export default Home;

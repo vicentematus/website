@@ -6,8 +6,10 @@ import {
   Linkedin,
   ReactJs,
 } from "@icons-pack/react-simple-icons";
+import { useTranslation } from "next-i18next";
 
-const CTASection: React.FC = () => {
+const CTASection = () => {
+  const { t } = useTranslation();
   return (
     <div className="bg-gray-900">
       <div>
@@ -19,10 +21,10 @@ const CTASection: React.FC = () => {
                   className="text-3xl font-extrabold text-white sm:text-4xl"
                   id="contact"
                 >
-                  <span className="block">Hablemos un rato 👋</span>
+                  <span className="block">{t("contact.title")}</span>
                 </h2>
                 <p className="mt-4 text-lg leading-6 text-indigo-200">
-                  Puedes contactarme en los siguientes links
+                  {t("contact.description")}
                 </p>
                 <div className="mt-4 space-y-4 font-display">
                   <div>
@@ -36,7 +38,7 @@ const CTASection: React.FC = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.linkedin.com/in/vicentematus/">
+                    <a href={t("contact.linkedin")}>
                       <div className="flex items-center">
                         <Linkedin size={24} />
                         <p className="ml-2">vicentematus</p>
@@ -44,20 +46,20 @@ const CTASection: React.FC = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.linkedin.com/in/vicentematus/">
+                    <a href={"mailto:" + t("contact.mail")}>
                       <div className="flex items-center">
                         <Gmail size={24} />
-                        <p className="ml-2">vicentematusortiz@gmail.com</p>
+                        <p className="ml-2">{t("contact.mail")}</p>
                       </div>
                     </a>
                   </div>
                 </div>
 
                 <a
-                  href="mailto:vicentematusortiz@gmail.com"
+                  href={"mailto:" + t("contact.mail")}
                   className="mt-8 inline-flex items-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 shadow hover:bg-gray-200"
                 >
-                  Enviar mensaje (mailto)
+                  {t("contact.cta")}
                 </a>
               </div>
             </div>

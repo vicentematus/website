@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "title": "Intento de Full-Stack, UI/UX designer. React/Next.JS Developer ",
+    "description": "Estudiante de Ingeniería en Informática. Con experiencia en desarrollo de aplicaciones web, usando tecnologías cómo React, Next.js, Typescript. Conocimiento de base de datos SQL y NoSQL."
+  },
+  "design": {
+    "title": "Diseños"
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "description": "Revisa algunos proyectos que he realizado utilizando tecnologías cómo React, Next.js, Svelte, Typescript."
+  },
+  "contact": {
+    "title": "Hablemos un rato 🤖",
+    "description": "Puedes contactarme en los siguientes links.",
+    "mail": "hola@vicentematus.cl",
+    "cta": "Enviar mensaje (mailto)",
+    "linkedin": "https://www.linkedin.com/in/vicentematus/?locale=es_ES"
+  }
+}
