@@ -8,7 +8,49 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "description": "Check some projects that I developed using Next.js, React, Typescript and Svelte."
+    "description": "Check some projects that I developed using Next.js, React, Typescript and Svelte.",
+    "projects": [
+      {
+        "id": 0,
+        "published": true,
+        "title": "Volume Landmarks from Rennaisance Periodization",
+        "description": "Contains all the information that break down recommended training volumes by muscle group.",
+        "technologies": [],
+        "images": [
+          "/img/volume-landmarks-reinassance-periodization-preview.png"
+        ],
+        "links": {
+          "deploy": "https://volume-landmarks-rp-rals.vercel.app/",
+          "github": "https://github.com/vicentematus/volume-landmarks-rp/"
+        }
+      },
+      {
+        "id": 2,
+        "published": true,
+        "title": "Pokedex with Svelte",
+        "description": "I worked with the PokeAPI to visualize the first 150 pokemons. ",
+        "technologies": [],
+        "images": ["/img/svelte-pokedex.png"],
+        "links": {
+          "deploy": "https://svelte-pokedex-rust.vercel.app/",
+          "github": "https://github.com/vicentematus/svelte-pokedex"
+        }
+      },
+      {
+        "id": 3,
+        "published": true,
+        "title": "Chilean Bird finder",
+        "description": "Search for all the species that exist of birds in the country of Chile. ",
+        "technologies": [],
+        "images": ["/img/chilean-birds.png"],
+        "links": {
+          "deploy": "https://chilean-birds-nine.vercel.app/",
+          "github": "https://github.com/vicentematus/chilean-birds-nextjs-typescript"
+        }
+      }
+    ],
+    "deploy": "Open preview",
+    "github": "See repository"
   },
   "contact": {
     "title": "Let's talk a bit 🤖",

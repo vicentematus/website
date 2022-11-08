@@ -8,7 +8,11 @@ import CardAlt from "./Card";
 const { projects } = portfolio;
 
 const PortfolioAlt = () => {
-  const { t } = useTranslation();
+  const { t, i18n, ready } = useTranslation();
+
+  const projectsInt = t("portfolio.projects", { returnObjects: true });
+
+  console.log("Projects traducido es", projectsInt);
   return (
     <div className="bg-black py-16">
       <section className="mx-auto  max-w-5xl">
@@ -38,9 +42,9 @@ const PortfolioAlt = () => {
         <div>
           <ul
             role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+            className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 "
           >
-            {projects.map((project: Project) => (
+            {projectsInt.map((project: Project) => (
               <CardAlt key={project.id} project={project} />
             ))}
           </ul>
