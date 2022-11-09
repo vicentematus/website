@@ -7,7 +7,7 @@ const Design: React.FC = () => {
   const [hover, setHover] = useState(false);
   const { t } = useTranslation();
   return (
-    <div className="mx-auto max-w-5xl py-16 lg:py-24">
+    <div className="mx-auto max-w-5xl py-16 px-4 lg:py-24">
       <h1 className="font-display text-3xl  text-white" id="design">
         {t("design.title")}
       </h1>

@@ -7,7 +7,7 @@ import { navigation } from "src/utils/menu";
 
 const HeaderSection = () => {
   return (
-    <Disclosure as="nav" className="bg-gray-900">
+    <Disclosure as="nav" className="fixed z-50 w-full bg-gray-900">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
@@ -57,17 +57,15 @@ const HeaderSection = () => {
               {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
 
               {navigation.map((element, index) => (
-                <>
-                  <Link
-                    href={element.href}
-                    key={index}
-                    className="block
+                <Link
+                  href={element.href}
+                  key={index}
+                  className="block
                     rounded-md  bg-slate-600 px-3 py-2 font-display text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white
                     "
-                  >
-                    {element.name}
-                  </Link>
-                </>
+                >
+                  {element.name}
+                </Link>
               ))}
             </div>
           </Disclosure.Panel>

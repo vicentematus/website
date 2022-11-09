@@ -13,6 +13,7 @@ import { useRouter } from "next/router";
 
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import i18config from "next-i18next.config.mjs";
+import HeaderSection from "src/components/menu";
 const Home: NextPage = () => {
   return (
     <>
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <HeaderSection />
       <Hero />
       <PreviewFold />
       {/* <Portfolio /> */}

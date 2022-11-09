@@ -3,6 +3,7 @@ import { portfolio } from "src/utils/portfolio";
 import { useRouter } from "next/router";
 import { handleLocaleChange } from "src/utils/locale";
 import { useTranslation } from "next-i18next";
+import Image from "next/image";
 const { hero } = portfolio;
 const Hero = () => {
   const { t } = useTranslation("common");
@@ -12,7 +13,17 @@ const Hero = () => {
       <div className="mx-auto max-w-7xl lg:px-8">
         <div className="relative px-4 sm:px-8 lg:px-12">
           <div className="mx-auto max-w-2xl lg:max-w-5xl">
-            <div className="max-w-2xl">
+            <div className="mt-16 max-w-2xl">
+              <div>
+                <Image
+                  width={70}
+                  priority
+                  height={70}
+                  className="mb-2 rounded-full"
+                  src="/img/me-in-35mm.png"
+                  alt="me in 35 mm boy"
+                />
+              </div>
               <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                 {t("hero.title")}
               </h1>
