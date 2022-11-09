@@ -1,14 +1,15 @@
 import { portfolio } from "src/utils/portfolio";
 import Image from "next/image";
 import { useState } from "react";
+import { useTranslation } from "next-i18next";
 const { design } = portfolio;
 const Design: React.FC = () => {
   const [hover, setHover] = useState(false);
-
+  const { t } = useTranslation();
   return (
     <div className="mx-auto max-w-5xl py-16 lg:py-24">
       <h1 className="font-display text-3xl  text-white" id="design">
-        Diseños
+        {t("design.title")}
       </h1>
       <ul className="grid grid-cols-1 gap-y-10 gap-x-6 overflow-hidden sm:grid-cols-2 xl:gap-x-8">
         {design.map((item, index) => (
@@ -27,7 +28,6 @@ const Design: React.FC = () => {
                 height={1000}
                 className="h-full w-full object-cover object-center group-hover:opacity-75"
               />
-              {hover && <div className="absolute inset-0 z-50 text-5xl"></div>}
             </div>
           </a>
         ))}

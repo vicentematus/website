@@ -1,20 +1,15 @@
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import { Project } from "src/types/project";
-import { portfolio } from "src/utils/portfolio";
-import PortfolioGallery from "../portfolio-gallery";
 import CardAlt from "./Card";
-
-const { projects } = portfolio;
 
 const PortfolioAlt = () => {
   const { t, i18n, ready } = useTranslation();
 
   const projectsInt = t("portfolio.projects", { returnObjects: true });
 
-  console.log("Projects traducido es", projectsInt);
   return (
-    <div className="bg-black py-16">
+    <div className="bg-gray-900 py-16">
       <section className="mx-auto  max-w-5xl">
         <div className="grid grid-cols-12 items-center justify-between">
           <header className="col-span-12 md:col-span-4" id="portfolio">
@@ -42,7 +37,7 @@ const PortfolioAlt = () => {
         <div>
           <ul
             role="list"
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 "
+            className="grid grid-cols-1 gap-6 px-2 sm:grid-cols-2  md:grid-cols-3"
           >
             {projectsInt.map((project: Project) => (
               <CardAlt key={project.id} project={project} />

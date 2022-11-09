@@ -1,3 +1,4 @@
+import { useTranslation } from "next-i18next";
 import Link from "next/link";
 import { navigation } from "src/utils/menu";
 
@@ -29,7 +30,8 @@ const social = [
     ),
   },
 ];
-const Footer: React.FC = () => {
+const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer className="bg-slate-900 font-display">
       <div className="mx-auto max-w-7xl overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
@@ -63,7 +65,7 @@ const Footer: React.FC = () => {
 
         <div className="text-center">
           <a className="mt-8 text-center text-base text-gray-400" href="">
-            PARA MAS INFORMACIÓN VISITA MI GITHUB
+            {t("footer.title")}
           </a>
         </div>
       </div>

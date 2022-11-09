@@ -58,5 +58,8 @@
     "mail": "hola@vicentematus.cl",
     "cta": "Enviar mensaje (mailto)",
     "linkedin": "https://www.linkedin.com/in/vicentematus/?locale=es_ES"
+  },
+  "footer": {
+    "title": "Para más informacion mira mi Github 🐲"
   }
 }

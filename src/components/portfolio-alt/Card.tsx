@@ -20,7 +20,7 @@ const CardAlt = ({ project }: { project: Project }) => {
   if (!published) return;
 
   return (
-    <li className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-gray-900 text-center shadow ">
+    <li className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-gray-800 px-4 py-2  text-center shadow-md">
       <div className="flex flex-1 flex-col p-2">
         <Image
           className="mx-auto flex-shrink-0 rounded-md"
@@ -33,7 +33,7 @@ const CardAlt = ({ project }: { project: Project }) => {
           {title}
         </h3>
         <dl className="mt-1 flex flex-grow flex-col justify-between">
-          <dd className="max-w-prose text-left text-sm ">{description}</dd>
+          <dd className="mb-2 max-w-prose text-left text-sm">{description}</dd>
         </dl>
       </div>
       <div>
