@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Trying to be a fullstack developer. UI/UX designer.",
-    "description": "Bachelor student in Informatics Engineering, with 2 years of experience developing web applications, using technologies such as React, Next, Svelte and Typescript. With notions of UI/UX design. Database knowledge on SQL/NoSQL databases"
+    "title": "Software Engineer. Trying to be a fullstack developer. UI/UX designer.",
+    "description": "Bachelor student in Computer Science, with 2 years of experience developing web applications, using technologies such as React, Next, Svelte and Typescript. With notions of UI/UX design. Database knowledge of SQL/NoSQL databases"
   },
   "design": {
     "title": "Take a look at my designs"
@@ -13,7 +13,7 @@
       {
         "id": 0,
         "published": true,
-        "title": "Volume Landmarks from Rennaisance Periodization",
+        "title": "Volume Landmarks from Renaissance Periodization",
         "description": "Contains all the information that break down recommended training volumes by muscle group.",
         "technologies": [],
         "images": [
@@ -40,7 +40,7 @@
         "id": 3,
         "published": true,
         "title": "Chilean Bird finder",
-        "description": "Search for all the species that exist of birds in the country of Chile. ",
+        "description": "Search for all the species of birds that exist in Chile ",
         "technologies": [],
         "images": ["/img/chilean-birds.png"],
         "links": {
