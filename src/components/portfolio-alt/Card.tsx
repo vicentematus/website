@@ -21,7 +21,7 @@ const CardAlt = ({ project }: { project: Project }) => {
 
   return (
     <li className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-gray-800 px-4 py-2  text-center shadow-md">
-      <div className="flex flex-1 flex-col p-2">
+      <a href={links.deploy} className="flex flex-1 flex-col p-2">
         <Image
           className="mx-auto flex-shrink-0 rounded-md"
           width={600}
@@ -35,7 +35,7 @@ const CardAlt = ({ project }: { project: Project }) => {
         <dl className="mt-1 flex flex-grow flex-col justify-between">
           <dd className="mb-2 max-w-prose text-left text-sm">{description}</dd>
         </dl>
-      </div>
+      </a>
       <div>
         <div className="-mt-px flex ">
           <div className="flex w-0 flex-1">
