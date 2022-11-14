@@ -27,15 +27,16 @@
       {
         "id": 2,
         "published": true,
-        "title": "Pokedex with Svelte",
-        "description": "I worked with the PokeAPI to visualize the first 150 pokemons. ",
+        "title": "Ecommerce Store",
+        "description": "Buy all the fake products you want. Made with React/Next.",
         "technologies": [],
-        "images": ["/img/svelte-pokedex.png"],
+        "images": ["/img/portfolio/fakestore.png"],
         "links": {
-          "deploy": "https://svelte-pokedex-rust.vercel.app/",
-          "github": "https://github.com/vicentematus/svelte-pokedex"
+          "deploy": "https://ecommerce-next-typescript.vercel.app/",
+          "github": "https://github.com/vicentematus/ecommerce-next-typescript"
         }
       },
+
       {
         "id": 3,
         "published": true,
@@ -46,6 +47,18 @@
         "links": {
           "deploy": "https://chilean-birds-nine.vercel.app/",
           "github": "https://github.com/vicentematus/chilean-birds-nextjs-typescript"
+        }
+      },
+      {
+        "id": 4,
+        "published": true,
+        "title": "Pokedex with Svelte",
+        "description": "I worked with the PokeAPI to visualize the first 150 pokemons. ",
+        "technologies": [],
+        "images": ["/img/svelte-pokedex.png"],
+        "links": {
+          "deploy": "https://svelte-pokedex-rust.vercel.app/",
+          "github": "https://github.com/vicentematus/svelte-pokedex"
         }
       }
     ],
