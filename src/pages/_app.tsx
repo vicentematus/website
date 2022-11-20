@@ -21,10 +21,12 @@ function Layout({ children }: { children: ReactElement }) {
 }
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
-    <Layout>
-      <Component {...pageProps} />
+    <>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
       <Analytics />
-    </Layout>
+    </>
   );
 };
 
