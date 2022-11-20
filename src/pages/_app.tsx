@@ -7,6 +7,8 @@ import "@fontsource/silkscreen/700.css";
 import "@fontsource/silkscreen/400.css";
 import { appWithTranslation } from "next-i18next";
 import i18config from "next-i18next.config.mjs";
+import { Analytics } from "@vercel/analytics/react";
+
 function Layout({ children }: { children: ReactElement }) {
   return (
     <>
@@ -21,6 +23,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <Layout>
       <Component {...pageProps} />
+      <Analytics />
     </Layout>
   );
 };
