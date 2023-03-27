@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Software Engineer. Intento de Full-Stack. React/Next.JS Developer ",
-    "description": "Estudiante de Ingeniería en Informática. Con experiencia en desarrollo de aplicaciones web, usando tecnologías cómo React, Next.js, Typescript. Conocimiento de base de datos SQL y NoSQL."
+    "title": "Software Developer. Intento de Full-Stack. React/Next.JS Developer ",
+    "description": "Estudiante Egresado de Ingeniería en Informática. Con experiencia en desarrollo de aplicaciones web, usando tecnologías cómo React, Next.js, Typescript. Conocimiento de base de datos SQL y NoSQL."
   },
   "design": {
     "title": "Diseños"
@@ -30,33 +30,37 @@
         "title": "Tienda Ecommerce",
         "description": "Tienda online hecha con React para implementar el manejo de state.",
         "technologies": [],
-        "images": ["/img/portfolio/fakestore.png"],
+        "images": [
+          "/img/portfolio/fakestore.png"
+        ],
         "links": {
           "deploy": "https://ecommerce-next-typescript.vercel.app/",
           "github": "https://github.com/vicentematus/ecommerce-next-typescript"
         }
       },
-
       {
         "id": 3,
         "published": true,
         "title": "Buscador de Aves Chilenas ",
         "description": "Buscador de Aves Chilenas. Realizado con Next.js, Typescript y Tailwind CSS. ",
         "technologies": [],
-        "images": ["/img/chilean-birds.png"],
+        "images": [
+          "/img/chilean-birds.png"
+        ],
         "links": {
           "deploy": "https://chilean-birds-nine.vercel.app/",
           "github": "https://github.com/vicentematus/chilean-birds-nextjs-typescript"
         }
       },
-
       {
         "id": 4,
         "published": true,
         "title": "Pokedex con Svelte",
         "description": "Trabajo con la PokeAPI para poder visualizar los 150 primeros pokemones. ",
         "technologies": [],
-        "images": ["/img/svelte-pokedex.png"],
+        "images": [
+          "/img/svelte-pokedex.png"
+        ],
         "links": {
           "deploy": "https://svelte-pokedex-rust.vercel.app/",
           "github": "https://github.com/vicentematus/svelte-pokedex"
