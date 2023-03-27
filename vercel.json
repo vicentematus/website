@@ -2,18 +2,15 @@
   "redirects": [
     {
       "source": "/35mm",
-      "destination": "https://www.flickr.com/photos/vicentematus/",
-      "statusCode": 301
+      "destination": "https://www.flickr.com/photos/vicentematus/"
     },
     {
       "source": "/git",
-      "destination": "https://github.com/vicentematus",
-      "statusCode": 302
+      "destination": "https://github.com/vicentematus"
     },
     {
       "source": "/svelte-kit",
       "destination": "https://github.com/sveltejs/kit/pulls?q=is%3Apr+author%3Avicentematus",
-      "statusCode": 302
     }
   ]
 }
