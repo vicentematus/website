@@ -14,10 +14,10 @@
         "id": 0,
         "published": true,
         "title": "Volume Landmarks from Rennaisance Periodization",
-        "description": "Visualizador  de los volume landmarks de las guías de Reinassance Periodization. Incluye cada grupo muscular.",
+        "description": "Visualizacion de la cantidad de series necesarias para cada grupo muscular.",
         "technologies": [],
         "images": [
-          "/img/volume-landmarks-reinassance-periodization-preview.png"
+          "/img/portfolio/bench-press.jpg"
         ],
         "links": {
           "deploy": "https://volume-landmarks-rp-rals.vercel.app/",
@@ -31,7 +31,7 @@
         "description": "Tienda online hecha con React para implementar el manejo de state.",
         "technologies": [],
         "images": [
-          "/img/portfolio/fakestore.png"
+          "/img/portfolio/store.png"
         ],
         "links": {
           "deploy": "https://ecommerce-next-typescript.vercel.app/",
@@ -45,7 +45,7 @@
         "description": "Buscador de Aves Chilenas. Realizado con Next.js, Typescript y Tailwind CSS. ",
         "technologies": [],
         "images": [
-          "/img/chilean-birds.png"
+          "/img/portfolio/chilean-birds.png"
         ],
         "links": {
           "deploy": "https://chilean-birds-nine.vercel.app/",

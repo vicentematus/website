@@ -17,7 +17,7 @@
         "description": "Contains all the information that break down recommended training volumes by muscle group.",
         "technologies": [],
         "images": [
-          "/img/volume-landmarks-reinassance-periodization-preview.png"
+          "/img/portfolio/bench-press.jpg"
         ],
         "links": {
           "deploy": "https://volume-landmarks-rp-rals.vercel.app/",
@@ -30,20 +30,23 @@
         "title": "Ecommerce Store",
         "description": "Buy all the fake products you want. Made with React/Next.",
         "technologies": [],
-        "images": ["/img/portfolio/fakestore.png"],
+        "images": [
+          "/img/portfolio/store.png"
+        ],
         "links": {
           "deploy": "https://ecommerce-next-typescript.vercel.app/",
           "github": "https://github.com/vicentematus/ecommerce-next-typescript"
         }
       },
-
       {
         "id": 3,
         "published": true,
         "title": "Chilean Bird finder",
         "description": "Search for all the species of birds that exist in Chile ",
         "technologies": [],
-        "images": ["/img/chilean-birds.png"],
+        "images": [
+          "/img/portfolio/chilean-birds.png"
+        ],
         "links": {
           "deploy": "https://chilean-birds-nine.vercel.app/",
           "github": "https://github.com/vicentematus/chilean-birds-nextjs-typescript"
@@ -55,7 +58,9 @@
         "title": "Pokedex with Svelte",
         "description": "I worked with the PokeAPI to visualize the first 150 pokemons. ",
         "technologies": [],
-        "images": ["/img/svelte-pokedex.png"],
+        "images": [
+          "/img/svelte-pokedex.png"
+        ],
         "links": {
           "deploy": "https://svelte-pokedex-rust.vercel.app/",
           "github": "https://github.com/vicentematus/svelte-pokedex"
