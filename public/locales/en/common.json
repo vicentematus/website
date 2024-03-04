@@ -1,14 +1,18 @@
 {
   "hero": {
     "title": "In pursuit of the arcane secrets of the coding universe",
-    "description": "Bachelor's in Computer Science, Full-stack enthusiast. I know React, Next, blah blah. But Svelte is #1.  With notions of UI/UX design. "
+    "description": "Working as Software Engineer 1 at MACH/Bci.  I know React, Next, blah blah. But Svelte is #1. Knowledge entushiast since 14. Design is my hidden skill. 35mm photographer on the streets.",
+    "cta": {
+      "notes": "Notes",
+      "flickr": "Photos"
+    }
   },
   "design": {
     "title": "Take a look at my designs"
   },
   "portfolio": {
     "title": "Portfolio",
-    "description": "Check some projects that I developed using Next.js, React, Typescript and Svelte.",
+    "description": "Check some projects that I developed using React/Next.js, Svelte, Typescript, PostgreSQL with Prisma ORM.",
     "projects": [
       {
         "id": 0,
@@ -16,12 +20,22 @@
         "title": "Volume Landmarks from Renaissance Periodization",
         "description": "Contains all the information that break down recommended training volumes by muscle group.",
         "technologies": [],
-        "images": [
-          "/img/portfolio/bench-press.jpg"
-        ],
+        "images": ["/img/portfolio/bench-press.jpg"],
         "links": {
           "deploy": "https://volume-landmarks-rp-rals.vercel.app/",
           "github": "https://github.com/vicentematus/volume-landmarks-rp/"
+        }
+      },
+      {
+        "id": 1,
+        "published": true,
+        "title": "Pokedex with Svelte",
+        "description": "Works with the PokeAPI to visualize the first 150 pokemons. ",
+        "technologies": [],
+        "images": ["/img/svelte-pokedex.png"],
+        "links": {
+          "deploy": "https://svelte-pokedex-rust.vercel.app/",
+          "github": "https://github.com/vicentematus/svelte-pokedex"
         }
       },
       {
@@ -30,9 +44,7 @@
         "title": "Ecommerce Store",
         "description": "Buy all the fake products you want. Made with React/Next.",
         "technologies": [],
-        "images": [
-          "/img/portfolio/store.png"
-        ],
+        "images": ["/img/portfolio/store.png"],
         "links": {
           "deploy": "https://ecommerce-next-typescript.vercel.app/",
           "github": "https://github.com/vicentematus/ecommerce-next-typescript"
@@ -44,36 +56,20 @@
         "title": "Chilean Bird finder",
         "description": "Search for all the species of birds that exist in Chile ",
         "technologies": [],
-        "images": [
-          "/img/portfolio/chilean-birds.png"
-        ],
+        "images": ["/img/portfolio/chilean-birds.png"],
         "links": {
           "deploy": "https://chilean-birds-nine.vercel.app/",
           "github": "https://github.com/vicentematus/chilean-birds-nextjs-typescript"
         }
-      },
-      {
-        "id": 4,
-        "published": true,
-        "title": "Pokedex with Svelte",
-        "description": "I worked with the PokeAPI to visualize the first 150 pokemons. ",
-        "technologies": [],
-        "images": [
-          "/img/svelte-pokedex.png"
-        ],
-        "links": {
-          "deploy": "https://svelte-pokedex-rust.vercel.app/",
-          "github": "https://github.com/vicentematus/svelte-pokedex"
-        }
       }
     ],
-    "deploy": "Open preview",
-    "github": "See repository"
+    "deploy": "Preview",
+    "github": "Repository"
   },
   "contact": {
-    "title": "Let's talk a bit 🤖",
-    "description": "You can find me at the following links:",
-    "mail": "hi@vicentematus.cl",
+    "title": "Let's talk 🤖",
+    "description": "Find me at the following links:",
+    "mail": "vicentematusortiz@gmail.com",
     "cta": "Send message (mailto)",
     "linkedin": "https://www.linkedin.com/in/vicentematus/?locale=en_US"
   },

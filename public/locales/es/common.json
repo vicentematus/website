@@ -1,79 +1,75 @@
 {
   "hero": {
     "title": "In pursuit of the arcane secrets of the coding universe",
-    "description": "Ingeniero en Informática. Software engineer orientado a Full-stack. Conozco React, Next.js, blab bla.... pero Svelte es #1. Nociones de UI/UX."
+    "description": "Software Engineer en MACH del Banco Bci. Full-stack. Conozco React, Next.js, blabla.... pero Svelte es #1. Curioso desde los 14. Diseño como skill oculto. Fotografo callejero.",
+    "cta": {
+      "notes": "Notas",
+      "flickr": "Photos"
+    }
   },
   "design": {
     "title": "Diseños"
   },
   "portfolio": {
     "title": "Portafolio",
-    "description": "Revisa algunos proyectos que he realizado utilizando tecnologías cómo React, Next.js, Svelte, Typescript.",
+    "description": "Revisa algunos proyectos que he realizado utilizando tecnologías cómo React/Next.js, Svelte, PostgreSQL con Prisma ORM.",
     "projects": [
       {
         "id": 0,
         "published": true,
-        "title": "Volume Landmarks from Rennaisance Periodization",
-        "description": "Visualizacion de la cantidad de series necesarias para cada grupo muscular.",
+        "title": "Volume Landmarks for muscle groups",
+        "description": "Contiene toda la informacion de las series necesarias para cada grupo muscular.",
         "technologies": [],
-        "images": [
-          "/img/portfolio/bench-press.jpg"
-        ],
+        "images": ["/img/portfolio/bench-press.jpg"],
         "links": {
           "deploy": "https://volume-landmarks-rp-rals.vercel.app/",
           "github": "https://github.com/vicentematus/volume-landmarks-rp/"
         }
       },
       {
-        "id": 2,
+        "id": 1,
         "published": true,
-        "title": "Tienda Ecommerce",
-        "description": "Tienda online hecha con React para implementar el manejo de state.",
+        "title": "Pokedex con Svelte",
+        "description": "Visualiza los 150 primeros pokemones con la PokeAPI. ",
         "technologies": [],
-        "images": [
-          "/img/portfolio/store.png"
-        ],
+        "images": ["/img/svelte-pokedex.png"],
         "links": {
-          "deploy": "https://ecommerce-next-typescript.vercel.app/",
-          "github": "https://github.com/vicentematus/ecommerce-next-typescript"
+          "deploy": "https://svelte-pokedex-rust.vercel.app/",
+          "github": "https://github.com/vicentematus/svelte-pokedex"
         }
       },
       {
-        "id": 3,
+        "id": 2,
         "published": true,
         "title": "Buscador de Aves Chilenas ",
         "description": "Buscador de Aves Chilenas. Realizado con Next.js, Typescript y Tailwind CSS. ",
         "technologies": [],
-        "images": [
-          "/img/portfolio/chilean-birds.png"
-        ],
+        "images": ["/img/portfolio/chilean-birds.png"],
         "links": {
           "deploy": "https://chilean-birds-nine.vercel.app/",
           "github": "https://github.com/vicentematus/chilean-birds-nextjs-typescript"
         }
       },
       {
-        "id": 4,
+        "id": 3,
         "published": true,
-        "title": "Pokedex con Svelte",
-        "description": "Trabajo con la PokeAPI para poder visualizar los 150 primeros pokemones. ",
+        "title": "Tienda Fake Ecommerce",
+        "description": "Hecha con React para implementar el manejo de state.",
         "technologies": [],
-        "images": [
-          "/img/svelte-pokedex.png"
-        ],
+        "images": ["/img/portfolio/store.png"],
         "links": {
-          "deploy": "https://svelte-pokedex-rust.vercel.app/",
-          "github": "https://github.com/vicentematus/svelte-pokedex"
+          "deploy": "https://ecommerce-next-typescript.vercel.app/",
+          "github": "https://github.com/vicentematus/ecommerce-next-typescript"
         }
       }
     ],
-    "deploy": "Ver deploy",
-    "github": "Ver repositorio"
+    "deploy": "Deploy",
+    "github": "Repositorio"
   },
   "contact": {
-    "title": "Hablemos un rato 🤖",
-    "description": "Puedes contactarme en los siguientes links.",
-    "mail": "hola@vicentematus.cl",
+    "title": "Hablemos 🤖",
+    "description": "Puedes contactarme en los siguientes links:",
+    "mail": "vicentematusortiz@gmail.com",
     "cta": "Enviar mensaje (mailto)",
     "linkedin": "https://www.linkedin.com/in/vicentematus/?locale=es_ES"
   },
