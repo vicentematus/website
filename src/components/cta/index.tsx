@@ -68,7 +68,7 @@ const CTASection = () => {
                 className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
                 height={753}
                 width={1035}
-                src={`/img/vectors/square.png`}
+                src={`/img/windows-art.png`}
                 alt="App screenshot"
               />
             </div>
