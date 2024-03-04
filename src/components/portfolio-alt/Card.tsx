@@ -24,8 +24,8 @@ const CardAlt = ({ project }: { project: Project }) => {
       <a href={links.deploy} className="flex flex-1 flex-col p-2">
         <Image
           className="mx-auto flex-shrink-0 rounded-md"
-          width={600}
-          height={600}
+          width={400}
+          height={400}
           src={`${images[0]}`}
           alt={title}
         />
