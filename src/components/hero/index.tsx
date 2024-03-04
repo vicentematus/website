@@ -1,4 +1,4 @@
-import { Dribbble } from "@icons-pack/react-simple-icons";
+import { Dribbble, Notepadplusplus } from "@icons-pack/react-simple-icons";
 import { portfolio } from "src/utils/portfolio";
 import { useRouter } from "next/router";
 import { handleLocaleChange } from "src/utils/locale";
@@ -21,7 +21,7 @@ const Hero = () => {
                   height={70}
                   className="mb-2 rounded-full"
                   src="/img/me-in-35mm.png"
-                  alt="me in 35 mm boy"
+                  alt="me in 35 mm "
                 />
               </div>
               <h1 className="text-4xl font-bold tracking-tight text-zinc-100 sm:text-5xl">
@@ -68,8 +68,56 @@ const Hero = () => {
                   <Dribbble
                     height={24}
                     width={24}
-                    className="ill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
+                    className="fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
                   />
+                </a>
+                <a
+                  className="group -m-1 p-1"
+                  aria-label="Link para mis notas"
+                  href="https://notas.vicentematus.cl"
+                >
+                  <div className="inline-flex items-center gap-2">
+                    <Notepadplusplus
+                      height={24}
+                      width={24}
+                      className="fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
+                    />
+                    <span className="text-sm text-zinc-500 transition group-hover:text-zinc-300  ">
+                      {t("hero.cta.notes")}
+                    </span>
+                  </div>
+                </a>
+
+                <a
+                  className="group -m-1 p-1"
+                  aria-label="Flickr para ver mis fotos"
+                  href="https://www.flickr.com/vicentematus/"
+                >
+                  <div className="inline-flex items-center gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="h-6 w-6 text-zinc-500 transition group-hover:text-zinc-300 "
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z"
+                      />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z"
+                      />
+                    </svg>
+
+                    <span className="text-sm text-zinc-500 transition group-hover:text-zinc-300  ">
+                      {t("hero.cta.flickr")}
+                    </span>
+                  </div>
                 </a>
               </div>
             </div>
