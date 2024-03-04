@@ -15,7 +15,7 @@ const HeaderSection = () => {
               <div className="flex items-center">
                 <div className="flex flex-shrink-0 items-center text-slate-100">
                   <Image
-                    src={`/img/vectors/logo.png`}
+                    src={`/img/clippy.gif`}
                     height={50}
                     width={50}
                     alt="Pagina personal de Vicente Matus"
