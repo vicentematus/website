@@ -1,14 +1,14 @@
 {
   "hero": {
     "title": "In pursuit of the arcane secrets of the coding universe",
-    "description": "Working as Software Engineer 1 at MACH/Bci.  I know React, Next, blah blah. But Svelte is #1. Knowledge enthusiast since 14. Design is my hidden skill. 35mm photographer on the streets.",
+    "description": "Founding software engineer at Gokei(Platanus Ventures 23-1). I know React, Next, blah blah. But Svelte is #1. Knowledge enthusiast. Design is my hidden skill. 35mm photographer on the streets.",
     "cta": {
       "notes": "Notes",
       "flickr": "Photos"
     }
   },
   "design": {
-    "title": "Take a look at my designs"
+    "title": "Designs"
   },
   "portfolio": {
     "title": "Portfolio",
