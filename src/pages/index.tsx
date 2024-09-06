@@ -18,7 +18,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Vicente Matus - Trying to be Fullstack</title>
+        <title>Vicente Matus</title>
         <meta
           name="description"
           content="In pursuit of the arcane secrets of the coding universe. "
