@@ -15,12 +15,42 @@
     "description": "Revisa algunos proyectos que he realizado utilizando tecnologías cómo React/Next.js, Svelte, PostgreSQL con Prisma ORM.",
     "projects": [
       {
+        "id": 4,
+        "published": true,
+        "title": "Game of Life",
+        "description": "Es un autómata celular que se juega en una grid.",
+        "technologies": [],
+        "images": [
+          "/img/portfolio/game-of-life.png"
+        ],
+        "links": {
+          "deploy": "https://game-of-life.vicentematus.cl/",
+          "github": "https://github.com/vicentematus/game-of-life"
+        }
+      },
+      {
+        "id": 5,
+        "published": true,
+        "title": "Stacked Notes",
+        "description": "Inspirado en las notas de Andy Matuschak (notes.andymatuschak.org).",
+        "technologies": [],
+        "images": [
+          "/img/portfolio/notas-andy.png"
+        ],
+        "links": {
+          "deploy": "https://andy-tabs.vicentematus.cl/",
+          "github": "https://github.com/vicentematus/stacked-tabs-andy-matuschak"
+        }
+      },
+      {
         "id": 0,
         "published": true,
         "title": "Volume Landmarks for muscle groups",
         "description": "Contiene toda la informacion de las series necesarias para cada grupo muscular.",
         "technologies": [],
-        "images": ["/img/portfolio/bench-press.jpg"],
+        "images": [
+          "/img/portfolio/bench-press.jpg"
+        ],
         "links": {
           "deploy": "https://volume-landmarks-rp-rals.vercel.app/",
           "github": "https://github.com/vicentematus/volume-landmarks-rp/"
@@ -32,7 +62,9 @@
         "title": "Pokedex con Svelte",
         "description": "Visualiza los 150 primeros pokemones con la PokeAPI. ",
         "technologies": [],
-        "images": ["/img/svelte-pokedex.png"],
+        "images": [
+          "/img/svelte-pokedex.png"
+        ],
         "links": {
           "deploy": "https://svelte-pokedex-rust.vercel.app/",
           "github": "https://github.com/vicentematus/svelte-pokedex"
@@ -44,7 +76,9 @@
         "title": "Buscador de Aves Chilenas ",
         "description": "Buscador de Aves Chilenas. Realizado con Next.js, Typescript y Tailwind CSS. ",
         "technologies": [],
-        "images": ["/img/portfolio/chilean-birds.png"],
+        "images": [
+          "/img/portfolio/chilean-birds.png"
+        ],
         "links": {
           "deploy": "https://chilean-birds-nine.vercel.app/",
           "github": "https://github.com/vicentematus/chilean-birds-nextjs-typescript"
@@ -56,7 +90,9 @@
         "title": "Tienda Fake Ecommerce",
         "description": "Hecha con React para implementar el manejo de state.",
         "technologies": [],
-        "images": ["/img/portfolio/store.png"],
+        "images": [
+          "/img/portfolio/store.png"
+        ],
         "links": {
           "deploy": "https://ecommerce-next-typescript.vercel.app/",
           "github": "https://github.com/vicentematus/ecommerce-next-typescript"
