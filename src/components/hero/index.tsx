@@ -80,9 +80,9 @@ const Hero = () => {
                     <Notepadplusplus
                       height={24}
                       width={24}
-                      className="fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
+                      className="fill-zinc-300 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
                     />
-                    <span className="text-sm text-zinc-500 transition group-hover:text-zinc-300  ">
+                    <span className="text-sm text-zinc-400 transition group-hover:text-zinc-300  ">
                       {t("hero.cta.notes")}
                     </span>
                   </div>
@@ -100,7 +100,7 @@ const Hero = () => {
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="h-6 w-6 text-zinc-500 transition group-hover:text-zinc-300 "
+                      className="h-6 w-6 text-zinc-300 transition group-hover:text-zinc-300 "
                     >
                       <path
                         strokeLinecap="round"
@@ -114,7 +114,7 @@ const Hero = () => {
                       />
                     </svg>
 
-                    <span className="text-sm text-zinc-500 transition group-hover:text-zinc-300  ">
+                    <span className="text-sm text-zinc-300 transition group-hover:text-zinc-300  ">
                       {t("hero.cta.flickr")}
                     </span>
                   </div>
