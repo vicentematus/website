@@ -11,7 +11,7 @@
     "title": "Diseños"
   },
   "portfolio": {
-    "title": "Portafolio",
+    "title": "Proyectos",
     "description": "Revisa algunos proyectos que he realizado utilizando tecnologías cómo React/Next.js, Svelte, PostgreSQL con Prisma ORM.",
     "projects": [
       {

@@ -11,7 +11,7 @@
     "title": "Designs"
   },
   "portfolio": {
-    "title": "Portfolio",
+    "title": "Projects",
     "description": "Check some projects that I developed using React/Next.js, Svelte, Typescript, PostgreSQL with Prisma ORM.",
     "projects": [
       {
