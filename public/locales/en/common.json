@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "In pursuit of the arcane secrets of the coding universe",
-    "description": "Founding software engineer at Gokei(Platanus Ventures 23-1). I know React, Next, blah blah. But Svelte is #1. Knowledge enthusiast. Design is my hidden skill. 35mm photographer on the streets.",
+    "description": "Founding Engineer at Gokei (Platanus Ventures 23-1). I know React, Next, blah blah. But Svelte is #1. Knowledge enthusiast. Design is my hidden skill. 35mm photographer on the streets.",
     "cta": {
       "notes": "Notes",
       "flickr": "Photos"
@@ -38,7 +38,6 @@
           "/img/portfolio/notas-andy.png"
         ],
         "links": {
-          "deploy": "https://andy-tabs.vicentematus.cl/",
           "github": "https://github.com/vicentematus/stacked-tabs-andy-matuschak"
         }
       },
@@ -82,7 +81,7 @@
         "id": 3,
         "published": true,
         "title": "Chilean Bird finder",
-        "description": "Search for all the species of birds that exist in Chile ",
+        "description": "Search for all the species of birds that exist in Chile.",
         "technologies": [],
         "images": ["/img/portfolio/chilean-birds.png"],
         "links": {
