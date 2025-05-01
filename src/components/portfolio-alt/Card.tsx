@@ -38,26 +38,30 @@ const CardAlt = ({ project }: { project: Project }) => {
       </a>
       <div>
         <div className="-mt-px flex ">
-          <div className="flex w-0 flex-1">
-            <a
-              href={`${links.github}`}
+          {links.github && (
+            <div className="flex w-0 flex-1">
+              <a
+                href={`${links.github}`}
               className="relative -mr-px inline-flex w-0 flex-1 items-center justify-center py-4 text-sm font-medium text-gray-200 hover:text-gray-500"
             >
               <Github height={20} width={20} className="text-white" />
-              <span className="ml-3 text-gray-200">
-                {t("portfolio.github")}
-              </span>
-            </a>
-          </div>
-          <div className="-ml-px flex w-0 flex-1">
+                <span className="ml-3 text-gray-200">
+                  {t("portfolio.github")}
+                </span>
+              </a>
+            </div>
+          )}
+          {links.deploy && (
+            <div className="-ml-px flex w-0 flex-1">
             <a
               href={`${links.deploy}`}
               className="relative inline-flex w-0 flex-1 items-center justify-center   py-4 text-sm font-medium text-gray-100 hover:text-gray-400"
             >
               <ArrowTopRightOnSquareIcon className="h-5 w-5 text-white" />
               <span className="ml-3">{t("portfolio.deploy")}</span>
-            </a>
-          </div>
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </li>
