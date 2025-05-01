@@ -25,8 +25,9 @@ const PortfolioAlt = () => {
             <div>
               <Image
                 src={"/img/clippy-pointing.gif"}
-                width={100}
-                height={100}
+                width={150}
+                height={150}
+                className="object-cover"
                 alt="Clippy showcasing my work"
               ></Image>
             </div>
