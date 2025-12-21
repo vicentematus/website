@@ -26,4 +26,20 @@ export default defineNextConfig({
   eslint: {
     ignoreDuringBuilds: true,
   },
+  async rewrites() {
+    return [
+      {
+        source: "/a-philosophy-of-software-design",
+        destination: "https://philosophy-of-software-design-essay.vercel.app/",
+      },
+      {
+        source: "/35mm",
+        destination: "https://www.flickr.com/photos/vicentematus/",
+      },
+      {
+        source: "/git",
+        destination: "https://github.com/vicentematus",
+      },
+    ];
+  },
 });
