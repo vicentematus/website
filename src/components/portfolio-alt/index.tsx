@@ -2,6 +2,7 @@ import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import { Project } from "src/types/project";
 import CardAlt from "./Card";
+import { fontSilkscreen } from "src/fonts";
 
 const PortfolioAlt = () => {
   const { t, i18n, ready } = useTranslation();
@@ -13,7 +14,7 @@ const PortfolioAlt = () => {
       <section className="mx-auto  max-w-4xl">
         <div className="grid grid-cols-12 items-center justify-between">
           <header className="col-span-12 md:col-span-8" id="portfolio">
-            <h2 className="font-display text-3xl uppercase">
+            <h2 className={`${fontSilkscreen.className} text-3xl uppercase`}>
               {t("portfolio.title")}
             </h2>
             <p className=" text-base  text-zinc-400 ">

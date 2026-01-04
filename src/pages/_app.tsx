@@ -3,8 +3,6 @@ import type { AppType } from "next/dist/shared/lib/utils";
 import type { ReactElement } from "react";
 import Menu from "src/components/menu";
 import Footer from "src/components/footer";
-import "@fontsource/silkscreen/700.css";
-import "@fontsource/silkscreen/400.css";
 import { appWithTranslation } from "next-i18next";
 import i18config from "next-i18next.config.mjs";
 import { Analytics } from "@vercel/analytics/react";
