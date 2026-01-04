@@ -28,7 +28,7 @@ const Home: NextPage = () => {
 
       <HeaderSection />
       <Hero />
-      <PreviewFold />
+      {/* <PreviewFold /> */}
       {/* <Portfolio /> */}
       <PortfolioAlt />
       {/* <Work /> */}

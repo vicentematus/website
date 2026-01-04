@@ -4,16 +4,17 @@ import { useRouter } from "next/router";
 import { handleLocaleChange } from "src/utils/locale";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
+import { OverlappingCards } from "./OverlappingCards";
 const { hero } = portfolio;
 const Hero = () => {
   const { t } = useTranslation("common");
 
   return (
-    <div className=" pt-10 sm:px-8 lg:pt-16">
+    <div className=" pb-16 pt-16 sm:px-8 lg:pb-24 lg:pt-32">
       <div className="mx-auto max-w-7xl lg:px-8">
         <div className="relative px-4 sm:px-8 lg:px-12">
-          <div className="mx-auto max-w-2xl lg:max-w-5xl">
-            <div className="mt-16 max-w-2xl">
+          <div className="mx-auto max-w-2xl lg:grid lg:max-w-none lg:grid-cols-[1fr_2fr] lg:items-center lg:gap-16 ">
+            <div className="mt-16 lg:mt-0 ">
               <div>
                 <Image
                   width={70}
@@ -120,6 +121,11 @@ const Hero = () => {
                   </div>
                 </a>
               </div>
+            </div>
+
+            {/* Right column: Overlapping cards */}
+            <div className="mt-16 lg:mt-0 lg:flex lg:items-center lg:justify-end">
+              <OverlappingCards />
             </div>
           </div>
         </div>
