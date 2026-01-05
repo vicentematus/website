@@ -18,10 +18,16 @@ export default defineNextConfig({
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'tailwindui.com',
-        port: '',
-        pathname: '/**',
+        protocol: "https",
+        hostname: "tailwindui.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "raw.githubusercontent.com",
+        port: "",
+        pathname: "/**",
       },
     ],
   },

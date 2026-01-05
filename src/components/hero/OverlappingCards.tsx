@@ -1,44 +1,23 @@
 import { Music9799Card } from "./Music9799Card";
 import { PokedexCard } from "./PokedexCard";
 import { GreenEscapeCard } from "./GreenEscapeCard";
+import { GameOfLifeCard } from "./GameOfLifeCard";
 
 export const OverlappingCards = () => {
   return (
-    <>
-      {/* Mobile: Horizontal scroll */}
-      <div className="scrollbar-hide -mx-4 flex snap-x snap-mandatory gap-6 overflow-x-auto px-4 pb-4 sm:hidden">
-        <div className="h-[340px] w-[280px] flex-none snap-center">
-          <GreenEscapeCard />
-        </div>
-        <div className="h-[340px] w-[280px] flex-none snap-center">
-          <PokedexCard />
-        </div>
-        <div className="h-[340px] w-[280px] flex-none snap-center">
-          <Music9799Card />
-        </div>
+    <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
+      <div className="relative aspect-[9/10] w-44 flex-none rotate-2 overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl lg:w-80 xl:w-96 dark:bg-zinc-800">
+        <GreenEscapeCard />
       </div>
-
-      {/* Desktop: Masonry grid layout */}
-      <div className="hidden auto-rows-[193px] grid-cols-2 gap-6 sm:grid">
-        <div className="row-span-2">
-          <Music9799Card />
-        </div>
-        <GreenEscapeCard />
-        <PokedexCard />
-        <GreenEscapeCard />
+      <div className="relative aspect-[9/10] w-44 flex-none -rotate-2 overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl lg:w-80 xl:w-96 dark:bg-zinc-800">
         <PokedexCard />
       </div>
-
-      {/* Hide scrollbar */}
-      <style jsx global>{`
-        .scrollbar-hide::-webkit-scrollbar {
-          display: none;
-        }
-        .scrollbar-hide {
-          -ms-overflow-style: none;
-          scrollbar-width: none;
-        }
-      `}</style>
-    </>
+      <div className="relative aspect-[9/10] w-44 flex-none rotate-2 overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl lg:w-80 xl:w-96 dark:bg-zinc-800">
+        <Music9799Card />
+      </div>
+      <div className="relative aspect-[9/10] w-44 flex-none -rotate-2 overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl lg:w-80 xl:w-96 dark:bg-zinc-800">
+        <GameOfLifeCard />
+      </div>
+    </div>
   );
 };

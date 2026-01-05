@@ -1,20 +1,20 @@
 import { Dribbble, Notepadplusplus } from "@icons-pack/react-simple-icons";
-import { portfolio } from "src/utils/portfolio";
-import { useRouter } from "next/router";
-import { handleLocaleChange } from "src/utils/locale";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
-import { OverlappingCards } from "./OverlappingCards";
-const { hero } = portfolio;
+import { GreenEscapeCard } from "./GreenEscapeCard";
+import { PokedexCard } from "./PokedexCard";
+import { Music9799Card } from "./Music9799Card";
+import { GameOfLifeCard } from "./GameOfLifeCard";
+
 const Hero = () => {
   const { t } = useTranslation("common");
 
   return (
-    <div className=" pb-16 pt-16 sm:px-8 lg:pb-24 lg:pt-32">
+    <div className="pb-16 pt-16 sm:px-8 lg:pb-24 lg:pt-32">
       <div className="mx-auto max-w-7xl lg:px-8">
         <div className="relative px-4 sm:px-8 lg:px-12">
-          <div className="mx-auto max-w-2xl lg:grid lg:max-w-none lg:grid-cols-[1fr_2fr] lg:items-center lg:gap-16 ">
-            <div className="mt-16 lg:mt-0 ">
+          <div className="max-w-2xl">
+            <div className="mt-16 lg:mt-0">
               <div>
                 <Image
                   width={70}
@@ -122,11 +122,34 @@ const Hero = () => {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
 
-            {/* Right column: Overlapping cards */}
-            <div className="mt-16 lg:mt-0 lg:flex lg:items-center lg:justify-end">
-              <OverlappingCards />
-            </div>
+      <div className="mt-16 sm:mt-20">
+        <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
+          <div className="relative aspect-[9/10] w-44 flex-none rotate-2 overflow-hidden rounded-xl bg-zinc-800 sm:w-72 sm:rounded-2xl lg:w-80 xl:w-96">
+            <GreenEscapeCard />
+          </div>
+          <div className="relative aspect-[9/10] w-44 flex-none -rotate-2 overflow-hidden rounded-xl bg-zinc-800 sm:w-72 sm:rounded-2xl lg:w-80 xl:w-96">
+            <PokedexCard />
+          </div>
+
+          <div className="relative aspect-[9/10] w-44 flex-none rotate-2 overflow-hidden rounded-xl bg-zinc-800 sm:w-72 sm:rounded-2xl lg:w-80 xl:w-96">
+            <GameOfLifeCard />
+          </div>
+          <div className="relative aspect-[9/10] w-44 flex-none rotate-2 overflow-hidden rounded-xl bg-zinc-800 sm:w-72 sm:rounded-2xl lg:w-80 xl:w-96">
+            <Music9799Card />
+          </div>
+          <div className="relative aspect-[9/10] w-44 flex-none -rotate-2 overflow-hidden rounded-xl bg-zinc-800 sm:w-72 sm:rounded-2xl lg:w-80 xl:w-96">
+            <Image
+              src="/img/fold/salvaje.png"
+              alt=""
+              width="400"
+              height="500"
+              priority
+              className="absolute inset-0 h-full w-full object-cover"
+            />
           </div>
         </div>
       </div>
