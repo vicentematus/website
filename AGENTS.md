@@ -2,6 +2,7 @@
 
 - In all interactions and commit messages, be extremely concise and sacrifice grammar for the sake of concision.
 - When interacting with git, always use the GitHub "gh" CLI.
+- We are using pnpm as a package manager.
 
 ## Git
 
